@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: Georgia, serif;
+}
+html{
+    overflow-x: hidden;
+    background-image: url("math.jpg");
+    background-repeat: no-repeat;
+    background-size: 50vw 100vh;
+}  
+.inputs{
+    position: absolute;
+    top: 15%;
+    left: 55%;
+    width: 510px;
+    height: 300px;
+}
+.first_cofficien{
+    font-size: 20px;
+    padding-left: 40px;
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.seconde_cofficien{
+    font-size: 20px;
+    padding-left: 40px;
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.third_cofficien{
+    font-size: 20px;
+    padding-left: 40px;
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.button{
+    position: absolute;
+    left: 20%;
+    bottom: 10%;
+    width: 20%;
+    height: 10%;
+    font-size: 17px;
+    color: blue;
+}
+#demo{
+    position: absolute;
+    bottom: 55px;
+    right: 275px;
+    border:5px solid rgb(43, 151, 124);
+    border-radius: 8px;
+    height: 250px;
+    width: 250px ;
+    padding: 20px;
+    color: blue ;
+}
+.title{
+    position: relative;
+    color: green;
+    TOP: 50px;
+    left: 65%;
+    font-size: 40px;
+}
+input{
+    margin-left: 10px;
+    font-weight: 550;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    background-color: rgb(243, 238, 238);
+}
+@media (max-width: 576px) {
+    html{
+        background-image: url("math.jpg");
+        background-repeat: no-repeat;
+        background-size: 100vw 25vh;
+    }
+    .title{
+        position:absolute;
+        font-size: 30px;
+        left: 10%;
+        top: 25%;
+    }
+    .inputs{
+        position: absolute;
+        top: 35%;
+        left: 0;
+        height: 200px;
+        width: 100vw;
+    }
+    .first_cofficien{
+        font-size: 17px;
+        padding-left: 20px;
+        padding-top: 17px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .seconde_cofficien{
+        font-size: 17px;
+        padding-left: 20px;
+        padding-top: 17px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .third_cofficien{
+        font-size: 17px;
+        padding-left: 20px;
+        padding-top: 17px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    input{
+        width: 100px;
+    }
+    .button{
+        position: absolute;
+        bottom: 20%;
+        left: 20%;
+        font-size: 17px;
+        color: blue;
+    }
+    #demo{
+        position: absolute;
+        left: 10%;
+        bottom: 1%;
+        height: 215px;
+        width: 250px ;
+        padding: 10px;
+    }
+}
+@media (max-width:768) {
+    html{
+        background-image: url("math.jpg");
+        background-repeat: no-repeat;
+        background-size: 120vw 20vh;
+    }
+    .title{
+        position: relative;
+        TOP: 100px;
+        left: 40%;
+        font-size: 40px;
+    }
+}
